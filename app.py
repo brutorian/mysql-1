@@ -6,13 +6,13 @@ app = Flask(__name__)
 
 
 # Change this to your secret key (can be anything, it's for extra protection)
-app.secret_key = 'KAHSNN67UUS8H'
+app.secret_key = ''
 
 
 # Enter your database connection details below
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'testing'
+app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'database'
 
 
